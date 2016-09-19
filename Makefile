@@ -7,7 +7,7 @@ obj-m			+= $(MODULE_NAME).o
 obj-m			+= i2c-smbus.o
 obj-m			+= i2c-i801.o
 
-psmouse-objs := psmouse-base.o elan_i2c_core.o
+psmouse-objs := psmouse-base.o 
 psmouse-y	+= elan_i2c_i2c.o
 psmouse-y	+= elan_i2c_smbus.o
 
